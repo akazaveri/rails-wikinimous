@@ -1,4 +1,8 @@
 <div class="container mt-5">
-  <h1>Add a new article</h1>
-  <%= render "form", article: @article %>
+  <div class="d-flex flex-column justify-content-center align-items-center">
+    <h1>Add a new article</h1>
+    <div class="w-50">
+      <%= render "form", article: @article%>
+    </div>
+  </div>
 </div>
